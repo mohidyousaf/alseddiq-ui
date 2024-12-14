@@ -1,21 +1,10 @@
-import tailwindLogical from 'tailwindcss-logical';
-import corePlugin from './src/@core/tailwind/plugin';
-//repdeploy
-
 const config = {
-  content: ['./src/**/*.{js,ts,jsx,tsx}', './public/**/*.html'],
-  safelist: [
-    'text-primary',
-    'bg-primary',
-    'text-secondary',
-    'bg-secondary',
-  ],
-  
+  content: ['./src/**/*.{js,ts,jsx,tsx,css}'],
   corePlugins: {
     preflight: false
   },
   important: '#__next',
-  plugins: [tailwindLogical, corePlugin],
+  plugins: [require('tailwindcss-logical'), require('./src/@core/tailwind/plugin')],
   theme: {
     extend: {
       colors: {
