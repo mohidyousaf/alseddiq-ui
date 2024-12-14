@@ -1,0 +1,72 @@
+[
+    {
+      "testId": "T001",
+      "testName": "Blood Test",
+      "group": "Health",
+      "subGroup": "Routine",
+      "unitCharge": "$50"
+    },
+    {
+      "testId": "T002",
+      "testName": "X-Ray",
+      "group": "Imaging",
+      "subGroup": "Radiology",
+      "unitCharge": "$120"
+    },
+    {
+      "testId": "T003",
+      "testName": "MRI Scan",
+      "group": "Imaging",
+      "subGroup": "Radiology",
+      "unitCharge": "$500"
+    },
+    {
+      "testId": "T004",
+      "testName": "Urine Test",
+      "group": "Health",
+      "subGroup": "Routine",
+      "unitCharge": "$25"
+    },
+    {
+      "testId": "T005",
+      "testName": "CT Scan",
+      "group": "Imaging",
+      "subGroup": "Radiology",
+      "unitCharge": "$350"
+    },
+    {
+      "testId": "T006",
+      "testName": "Liver Function Test",
+      "group": "Health",
+      "subGroup": "Specialized",
+      "unitCharge": "$75"
+    },
+    {
+      "testId": "T007",
+      "testName": "ECG",
+      "group": "Health",
+      "subGroup": "Cardiology",
+      "unitCharge": "$45"
+    },
+    {
+      "testId": "T008",
+      "testName": "Ultrasound",
+      "group": "Imaging",
+      "subGroup": "Radiology",
+      "unitCharge": "$200"
+    },
+    {
+      "testId": "T009",
+      "testName": "COVID-19 Test",
+      "group": "Health",
+      "subGroup": "Specialized",
+      "unitCharge": "$100"
+    },
+    {
+      "testId": "T010",
+      "testName": "Cholesterol Test",
+      "group": "Health",
+      "subGroup": "Routine",
+      "unitCharge": "$30"
+    }
+  ]
