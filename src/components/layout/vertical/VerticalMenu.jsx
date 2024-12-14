@@ -100,13 +100,13 @@ const VerticalMenu = ({ scrollMenu }) => {
           Patients
         </MenuItem>
         
-        <MenuItem href="/test/pending-test" icon={<HourglassEmptyIcon />}>
+        <MenuItem href="/pending-tests" icon={<HourglassEmptyIcon />}>
           Pending Tests
         </MenuItem>
-        <MenuItem href="/test/ongoing-test" icon={<LoopIcon />}>
+        <MenuItem href="/ongoing-tests" icon={<LoopIcon />}>
           Ongoing Tests
         </MenuItem>
-        <MenuItem href="/test/completed-test" icon={<DoneIcon />}>
+        <MenuItem href="/completed-tests" icon={<DoneIcon />}>
           Completed Tests
         </MenuItem>
       </Menu>

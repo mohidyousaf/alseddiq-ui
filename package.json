@@ -31,7 +31,6 @@
     "http-status-codes": "^2.3.0",
     "joi": "^17.13.3",
     "jspdf": "^2.5.2",
-    "jspdf-autotable": "^3.8.4",
     "multer": "^1.4.5-lts.1",
     "next": "14.2.5",
     "pg": "^8.13.1",
@@ -46,7 +45,6 @@
     "react-use": "17.5.1",
     "sequelize": "^6.37.5",
     "server-only": "0.0.1",
-    "twilio": "^5.3.7",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
